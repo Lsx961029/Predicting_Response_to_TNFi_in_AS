@@ -358,7 +358,7 @@ if($_REQUEST["mail"]){
    $MAIL_CONTENT = $_POST["MAIL_CONTENT"];
    if($MAIL_CONTENT != "") {
     $Mail_account="predict.response@gmail.com";
-    $Password="pr123456!";
+    $Password="";
     //PHPMailer Object
     $mail = new PHPMailer();
     // Settings
